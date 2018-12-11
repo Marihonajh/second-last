@@ -23,7 +23,7 @@ $(document).ready(function() {
     if (radio[2] == "var x") {
       correct++;
     }
-    if (radio[3] == "colors[0]"
+    if (radio[3] == "colo
       correct++;
       if (radio[4] == "interaction") {
         correct++;
