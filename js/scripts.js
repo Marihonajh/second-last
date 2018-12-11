@@ -23,11 +23,11 @@ $(document).ready(function() {
     if (radio[2] == "var x") {
       correct++;
     }
-    if (radio[3] == "colo
+    if (radio[3] == "colors[0]") {
       correct++;
-      if (radio[4] == "interaction") {
-        correct++;
-      }
+    }
+    if (radio[4] == "Structure") {
+      correct++;
     }
 
     $("p#results").html(correct + "correct");
