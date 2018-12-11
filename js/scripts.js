@@ -15,7 +15,7 @@ $(document).ready(function() {
     var correct = 0;
 
     if (radio[0] == "ECMAScript") {
-
+      correct++;
     }
     if (radio[1] == "script-tag") {
       correct++;
