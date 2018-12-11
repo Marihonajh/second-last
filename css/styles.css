@@ -1,0 +1,49 @@
+.container {
+  width: 900px;
+  margin: 0 auto;
+  padding: 16px 11px;
+  border-radius: 10px;
+  background-color: white;
+  display: block;
+}
+
+body {
+  font-family: fantasy;
+  background-color: green;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: justify;
+}
+
+h2 {
+  margin: 5px;
+}
+
+input {
+  margin: 5px 10px;
+}
+
+#submit {
+  text-decoration: underline;
+  background-color: green;
+}
+
+button {
+  border-bottom: solid green;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px 0;
+  font-size: 18px;
+  color: white;
+}
+
+#results {
+  display: none;
+  padding: 20px;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 200px
+}
